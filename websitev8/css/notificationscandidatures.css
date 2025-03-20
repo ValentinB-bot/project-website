@@ -1,0 +1,199 @@
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .navbar{
+        list-style: none;
+        display: inline-block;
+        padding: 15px 45px;
+    
+    }
+    
+    .navbar_home{
+    
+        list-style: none;
+        display: inline-block;
+        padding: 15px 25px;
+    
+    
+    }
+    
+    .sous{
+    
+        display: none;
+        background-color: white;
+        position: absolute;
+    
+    
+    }
+    
+    .sous li{
+    
+        float: none;
+        width: 200%;
+        text-align: left;
+        list-style: none;
+        padding: 10px;
+        margin-left: -45px;
+        background-color: black;
+    
+    }
+    
+    
+    nav > ul li:hover .sous{
+    
+        display: block;
+        
+    
+    }
+    
+    ul{
+        background-color: black;
+    }
+    
+
+    
+    .ProfilePhoto{
+        margin-bottom: 15%; 
+        max-width: 200px; 
+        border-radius: 100px / 160px;
+    }
+
+    .student_info{
+        grid-column: 2;
+        border: solid;
+        padding-top: 77%;
+        margin-left: 10%;
+        margin-right: -45%;
+        padding-left: 15%;
+        width: 200%;
+        max-width: 200px;
+    }
+    
+    .Application_Img{
+        grid-column: 3;
+        padding-top: 10%;
+        margin-left: 15%;
+        padding-left: 13%;
+        width: -webkit-fill-available;
+    }
+
+    .Enterprise_Img{
+        grid-column: 4;
+    }
+
+    .enterprise_info{
+        grid-column: 5;
+        width: 300%;
+        padding-left: 75%;
+
+    }
+
+    .notification{
+        display: grid; 
+        width: 75%; 
+        margin-bottom: 5%;
+    }
+
+    .EnterprisePhoto{
+        margin-bottom: 10%;
+        max-width: 200px;
+        grid-column: 4;
+        padding-left: 30%;
+    }
+    .login{
+
+        padding: 14px 40px;
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+        float: right;
+        margin: 30px;
+        transition-duration: 0.4s;
+
+    }
+    .login:hover{
+
+        background-color: black; /* Green */
+        color: rgb(255, 204, 0);
+    }
+    @media screen and (max-width: 1220px) {
+
+        .notification{
+            display: grid;
+            width: 75%;
+            margin-bottom: 5%;
+            justify-items: center;
+        }
+        .student_info {
+            grid-column: 1;
+            border: solid;
+            max-width: 22%;
+            padding-top: 0%;
+            margin-left: 0%;
+            margin-right: 0%;
+            padding-left: 0%;
+            
+        }
+        .ProfilePhoto{
+            max-width: 200px;
+            grid-column: 1;
+            margin-bottom: 0%;
+        }
+        .enterprise_info {
+            grid-column: 1;
+            border-bottom: solid;
+            width: 100%;
+            padding-bottom: 10%;
+            padding-left: 70%;
+        }
+        .Application_Img{
+            grid-column: 1;
+            width: 40%;
+            padding-top: 0%;
+            margin-left: 0%;
+            padding-left: 0%;
+        }
+        .EnterprisePhoto{
+            margin-bottom: 0%;
+            max-width: 200px;
+            grid-column: 1;
+            padding-left: 0%;
+        }
+
+    }
+    @media screen and (max-width: 480px) {
+        .student_info{
+            border : none;
+        }
+    }
+	
+	footer{
+
+		 background-color: black;
+		 display: flex;
+		 justify-content: center;
+		 position: fixed;
+		 left: 0;
+		 bottom: 0;
+		 width: 100%;
+		 font-family: monospace;
+
+
+	}
+	
+	body {
+	 margin: 0;
+	}
+	
+	#return {
+
+	 color: #970000;
+	 font-family: monospace;
+	 margin-top: 5%;
+	 font-size: 150%;
+	 
+	}
+    

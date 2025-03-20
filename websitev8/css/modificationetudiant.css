@@ -1,0 +1,191 @@
+
+.rating a {
+  float: right;
+  color: #aaa;
+  text-decoration: none;
+  font-size: 3em;
+  transition: color .4s;
+}
+.rating a:hover,
+.rating a:focus,
+.rating a:hover ~ a,
+.rating a:focus ~ a {
+  color: orange;
+  cursor: pointer;
+}
+
+.textnav{
+   display: inline;
+   font-size: 300%;
+   margin-left: 25%;
+}
+
+a{
+   text-decoration: none;
+   color: white;
+}
+
+.navbar{
+   list-style: none;
+   display: inline-block;
+   padding: 15px 45px;
+
+}
+
+.navbar_home{
+
+   list-style: none;
+   display: inline-block;
+   padding: 15px 25px;
+
+
+}
+
+.sous{
+
+   display: none;
+   background-color: white;
+   position: absolute;
+
+
+}
+
+.sous li{
+
+   float: none;
+   width: 200%;
+   text-align: left;
+   list-style: none;
+   padding: 10px;
+   margin-left: -45px;
+   background-color: black;
+
+}
+
+nav > ul li:hover .sous{
+
+   display: block;
+   
+
+}
+
+
+ul{
+   background-color: black;
+
+}
+
+.content{
+ display: grid;
+ border: solid;
+ width: 80%;
+ float: right;
+ margin-right: 10%;
+}
+
+.input_info{
+ grid-column: 2;
+ margin-top: 12%;
+ margin-bottom: 12%;
+}
+
+.input_add{
+ grid-column: 3;
+ margin-top: 50%;
+}
+
+.photoprofile{
+ grid-column: 1;
+ margin-top: 25%;
+ margin-left: 18%;
+}
+
+.ImageProfile{
+ max-height: 150px;
+ max-width: 150px;
+ display: flex;
+}
+
+.inputfilemessage{
+ margin-top: 5%;
+ margin-right: 9%;
+}
+
+.spacetop{
+ margin-top: 5%;
+}
+
+
+@media screen and (max-width: 715px) {
+
+.input_info{
+ grid-row: 2;
+ grid-column: 1;
+ justify-self: center;
+}
+
+.input_add{
+ grid-row: 3;
+ grid-column: 1;
+ margin-top: 0%;
+ justify-self: center;
+}
+
+}
+@media screen and (max-width: 360px){
+
+.content{
+ border: none;
+ float: left;
+}
+
+.inputfilemessage{
+ margin-left: -10%;
+}
+
+}
+
+footer{
+
+   background-color: black;
+   display: flex;
+   justify-content: center;
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ font-family: monospace;
+
+
+}
+
+.login{
+
+   padding: 14px 40px;
+   background-color: white;
+   color: black;
+   border: 2px solid black;
+   float: right;
+   margin: 30px;
+   transition-duration: 0.4s;
+
+}
+
+body {
+ margin: 0;
+}
+
+.login:hover{
+
+   background-color: black; /* Green */
+   color: rgb(255, 204, 0);
+}
+
+.return {
+
+ color: #970000;
+ font-family: monospace;
+ margin-top: 5%;
+ font-size: 150%;
+ 
+}

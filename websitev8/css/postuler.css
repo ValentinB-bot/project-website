@@ -1,0 +1,129 @@
+
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .navbar{
+        list-style: none;
+        display: inline-block;
+        padding: 15px 45px;
+    
+    }
+    
+    .navbar_home{
+    
+        list-style: none;
+        display: inline-block;
+        padding: 15px 25px;
+    
+    
+    }
+    
+    .sous{
+    
+        display: none;
+        background-color: white;
+        position: absolute;
+    
+    
+    }
+    
+    .sous li{
+    
+        float: none;
+        width: 200%;
+        text-align: left;
+        list-style: none;
+        padding: 10px;
+        margin-left: -45px;
+        background-color: black;
+    
+    }
+    
+    
+    nav > ul li:hover .sous{
+    
+        display: block;
+        
+    
+    }
+    
+    ul{
+        background-color: black;
+    }
+    
+    .textnav{
+        display: inline;
+        font-size: 300%;
+        margin-left: 25%;
+    }
+    
+    .info-entreprise{
+        display: grid;
+        float: right;
+        margin-right: 3%;
+    }
+
+    .message{
+        padding: 5%;
+        display: grid;
+        width: 50%;
+    }
+    
+    
+    @media screen and (max-width: 1003px) {
+        .info-entreprise{
+            float: left;
+        }
+        .message{
+            width:70%;
+        }
+    }
+	
+	footer{
+
+		 background-color: black;
+		 display: flex;
+		 justify-content: center;
+		 position: fixed;
+		 left: 0;
+		 bottom: 0;
+		 width: 100%;
+		 font-family: monospace;
+
+
+	}
+	
+	body {
+	 margin: 0;
+	}
+	
+	.login{
+
+        padding: 14px 40px;
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+        float: right;
+        margin: 30px;
+        transition-duration: 0.4s;
+
+    }
+    .login:hover{
+
+        background-color: black; /* Green */
+        color: rgb(255, 204, 0);
+    }
+	
+	.return {
+
+	 color: #970000;
+	 font-family: monospace;
+	 margin-top: 5%;
+	 font-size: 150%;
+	 
+	}
+    
+    

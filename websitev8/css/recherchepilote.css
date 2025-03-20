@@ -1,0 +1,166 @@
+
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .navbar{
+        list-style: none;
+        display: inline-block;
+        padding: 15px 45px;
+    
+    }
+    
+    .navbar_home{
+    
+        list-style: none;
+        display: inline-block;
+        padding: 15px 25px;
+    
+    
+    }
+    
+    .sous{
+    
+        display: none;
+        background-color: white;
+        position: absolute;
+    
+    
+    }
+    
+    .sous li{
+    
+        float: none;
+        width: 200%;
+        text-align: left;
+        list-style: none;
+        padding: 10px;
+        margin-left: -45px;
+        background-color: black;
+    
+    }
+    
+    .Search{
+        margin-left: 80%;
+    }
+    
+    nav > ul li:hover .sous{
+    
+        display: block;
+        
+    
+    }
+    
+    ul{
+        background-color: black;
+    }
+    
+    .content{
+     
+        display: grid;
+        width: 80%;
+        padding-top: 1%;
+        margin-bottom: 10%;
+        margin-left: 1%;
+    }
+    
+    .information{
+        display: grid;
+        border: solid;
+    }
+    
+    .button{
+        display: grid;
+        grid-column: 2;
+        padding-left: 20%;
+        padding-right: 40%;
+    }
+    
+    .input_info{
+        grid-column: 2;
+        margin-left: -25%;
+        margin-top: 10%;
+        padding-bottom: 20%;
+    }
+
+    .space_info{
+        margin-top: 10%;
+      }
+      .login{
+
+        padding: 14px 40px;
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+        float: right;
+        margin: 30px;
+        transition-duration: 0.4s;
+    } 
+    .login:hover{
+
+        background-color: black;
+        color: rgb(255, 204, 0);
+    }
+
+
+    
+	footer{
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	font-family: monospace;
+
+
+	}
+	body {
+	margin: 0;
+	}
+    
+	#ImageProfile{
+		max-width : 200px;
+		max-height : 150px;
+        padding-top: 20%;
+        padding-left: 7%;
+        border-radius: 100px / 160px;
+	}
+	
+	body #return {
+
+		color: #970000;
+		font-family: monospace;
+		margin-top: 5%;
+		font-size: 150%;
+	  
+	}
+
+    @media screen and (max-width: 870px) {
+        .content{
+          display: block;
+        }
+        .profilephoto{
+          margin-top: 0%;
+        }
+        .input_info{
+          margin-left: 10%;
+          margin-top: -16%;
+          grid-column: 1;
+        }
+        .button{
+          display: block;
+          padding-left: 0%;
+          padding-right: 0%;
+        }
+        .space_info{
+          margin-top: 5%;
+        }
+        .Search{
+          margin-left: 0%;
+        }
+      }
